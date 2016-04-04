@@ -1,0 +1,11 @@
+Here Are The List Of Books Fetched From The Server
+<ul>
+    <h2>Books:</h2>
+    <ul>
+      {{#each model.books as |book|}}
+          <li>{{{book.title}}}</li>
+      {{/each}}
+    </ul>
+  {{partial "books/p1index"}}
+  {{partial "books/p2index"}}
+</ul>
